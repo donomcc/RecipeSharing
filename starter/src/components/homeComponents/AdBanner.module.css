@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0
+}
+
+.food-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    height: 60vh;
+    width: 800px;
+    margin-bottom: 20px;
+    /* padding: 6rem; */
+}
+
+.new-recipe {
+    color: white;
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.food-title {
+    color: rgb(226, 105, 18);
+    font-size: 64px;
+    margin-bottom: 15px;
+}
+
+.food-desc {
+    color: white;
+    font-size: 32px;
+    margin-bottom: 15px;    
+}
+
+.blue-btn {
+    color: white;
+    background-color: teal;
+    text-decoration: none;
+    border: none;
+    font-size: 24px;
+    padding: 6px 16px;
+    cursor: pointer;
+}

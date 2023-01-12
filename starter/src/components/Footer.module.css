@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+.body {
+    margin: 0;
+}
+
+.footer {
+    height: 150px;
+    background-color: rgb(56, 56, 56);
+    color: white;
+    display: flex;
+    bottom: 0;
+    width: 100%;
+    justify-content: space-between;
+    padding-left: 5rem;
+    padding-right: 3rem;
+    text-align: center;
+    align-items: center;
+}
+
+.footer a {
+    padding: 7px;
+    color: teal;
+}

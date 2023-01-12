@@ -1,0 +1,30 @@
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row nowrap;
+}
+
+.search-field {
+    width: 300px;
+    padding: 10px 35px 10px 15px;
+    border: none;
+    border-radius: 100px;
+    outline: none;
+    background-color: rgb(247, 149, 92);
+    color: black;
+    margin-bottom: 40px;
+  }
+  
+.search-button {
+    background: transparent;
+    border: none;
+    outline: none;
+    margin-left: -33px;
+  }
+  
+.search-button img {
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+  }
